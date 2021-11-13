@@ -21,7 +21,7 @@ When a tool asks for a column, you can use a name or number, e.g. "7" or "title"
 
 When a tool asks for a ColumnSet, that is a comma delimited list of Ranges
 
-A Range starts with an options "~" signaling "not", followed by one of
+A Range starts with an optional "Name:", giving a new name to the column, followed by a optional "~" signaling "not", followed by one of
  * a single **Named Column**
  * two named columns, separated by a "-" indicating an inclusive range. The second one can be omitted, meaning "all the rest"
  * A comparison operator, followed by a string, e.g. "<abc" or ">=def", include all columns matching (case sensitive) the given expression
@@ -36,7 +36,7 @@ This means that repeating a "yes" column is significant, but repeating a negated
 * `1-3,5` - columns 1,2,3 and 5
 * `1-5,~3` - columns 1,2,4,5
 * `1-` - all the columns
-* `1,1,2,2` - column 1, column 1 again, column 2, column 2 again
+* `1,stuff:1` - column 1 with its original name, column 1 again but with the column name "stuff"
 * `~2-3,1-5,~3-4` - columns 1 and 5
 
 ### Scoped Value
