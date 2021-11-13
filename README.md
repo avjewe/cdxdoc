@@ -1,5 +1,4 @@
-# cdxdoc
-Documentation for the rust cdx package.
+# Documentation for the rust cdx package.
 
 The cdx application is something like the gnu textutils, with added benefits :
 
@@ -14,5 +13,5 @@ Tools
 * [cgrep](cgrep.md) Select lines from a file, based on matching column values
 * [cut](cut.md) Select combine and rearrange parts of a line
 * [sort](sort.md) Sort the lines of a set of input files.
-* [tooltest](tooltest.md) Sort the lines of a set of input files.
+* [tooltest](tooltest.md) Test command line tools.
 * [uniq](uniq.md) Select only one of any set of adjacent lines.
