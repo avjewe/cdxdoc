@@ -1,6 +1,6 @@
-Select only one of any set of equivilent adjacent lines.
+# uniq : Select only one of any set of equivilent adjacent lines.
 
-USAGE : cdx unie [options...] [file]
+USAGE : cdx uniq [options...] [file]
 
 ### Command Line Options
 
