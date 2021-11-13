@@ -1,4 +1,4 @@
-# Dedicated header line to name columns
+# Name Columns and how to use them
 
 cdx can handle text files with a special header line. 
 
@@ -47,5 +47,3 @@ A scoped value lets you specify a value that is potentiall different for every c
  * `-s foo -s bar,2-4` -- column1 1 and 5 get foo, 2-4 get bar
  * `-s ,,3` -- column 3 gets ","
  * `-s foo,~2-4` -- columns 1 and 5 get foo.
-
-
