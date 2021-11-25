@@ -23,3 +23,4 @@ What to do if files don't end with a newline
  * Yes - Always append a newline if one isn't present.  This is the default.
  * No - Never append a newline.
  * End - Appen a newline to the last file, if necessary.
+ 
