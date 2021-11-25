@@ -13,7 +13,8 @@ where Column is a column name or number. If a number, then the colon is optional
 Mode is one of :
 
  * L : sort fields by their length
- * g : best effort to convert field to floating point value, and compare that
+ * g : best effort to convert field to 64-bit floating point value, and compare that
+ * n : Numeric compare, assuimg input is in the form [-]nnn.nnn, with no limit on length or value
  * : default is regular text compare
 
 Combined with :
