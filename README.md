@@ -5,7 +5,7 @@ The cdx application is something like the gnu textutils, with added benefits :
 * Written in Rust
 * Generally faster, and better at dealing with enormous files
 * Supports [Named Columns](NamedColumns.md)
-* Supports a wide variety of [Comparisons](Comparisons.md)
+* Supports a wide variety of [Comparators](Comparator.md) and [Matchers](Matcher.md)
 * Supports [File Magic](FileMagic.md)
 
 Tools
