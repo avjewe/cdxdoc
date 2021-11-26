@@ -8,6 +8,12 @@ Combine files, one after the other. Do the right thing with file headers.
 |---|---|---|
 |-h|--header=Mode|Header requirements.|
 |-p|--pad=Mode>|Add trailing newline if absent.|
+|-n|--number=Name\[,Start\[,Where]]|Number the lines in column 'Name', starting at number 'Start', 'Where' can be 'begin' or 'end'|
+|-b|--begin|Shortcut for `--number number,1,begin`|
+|-e|--end|Shortcut for `--number number,1,end`|
+|-r|--remove=Mode|Remove these lines. \[possible values: Empty, Blank, Hash, Slash]|
+|-s|--skip=Mode|Do not number these lines. \[possible values: Empty, Blank, Hash, Slash]|
+
 
 ### Header Mode
 The header mode dictates what file headers are expected, and what to do when files don't match each other
