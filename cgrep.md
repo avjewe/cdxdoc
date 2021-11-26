@@ -2,6 +2,7 @@
 
 USAGE `cdx cgrep [options...] [files...]`
 # Command Line Options
+
 |short|long|description|
 |---|---|---|
 |-p|--pattern=Column,[Matcher](Matcher.md),Pattern|Select line where this col matches this pattern.|
