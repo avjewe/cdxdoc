@@ -15,6 +15,8 @@ Patterns have three comma delimited parts. The third part can have commas. The p
 2. A [Matcher](Matcher.md)
 3. The pattern, interpreted as per the matcher.
 
+If you specify multiple patterns, they must all match.
+
 ## Examples
  * `-p title,x{3}` -- matches lines where the title field contains three x's in a row
  * `-p 3,S.N.C.prefix,ñ -- reject lines where column 3 starts with ñ or Ñ
