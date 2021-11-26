@@ -4,7 +4,7 @@ USAGE : `cdx cat [options...] [files...]`
 Combine files, one after the other. Do the right thing with file headers.
 
 ## Command Line Options
-||||
+|short|long|description|
 |---|---|---|
 |-h|--header=Mode|Header requirements.|
 |-p|--pad=Mode>|Add trailing newline if absent.|
