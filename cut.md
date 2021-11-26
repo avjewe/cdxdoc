@@ -4,7 +4,7 @@ USAGE : `cdx cut [options...] [files...]`
 
 ## Command Line Options
 
-||||
+|short|long|description|
 |---|---|---|
 |-f|--fields=Columns|the columns to select as a [Column Set](NamedColumns.md)|
 |-g|--group=Spec|The columns in a bunch, e.g. '.group:1-3'|
