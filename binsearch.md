@@ -1,4 +1,4 @@
-# Search in sorted files
+# BINSEARCH : Search in sorted files
 USAGE : `cdx binsearch [options...] Key File [files...]`
 
 Search files, one after the other. Files must be sorted. Very fast, even for enormous files.
