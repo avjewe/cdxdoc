@@ -12,5 +12,5 @@
 * Input files starting with "<" are opened with "popen"
 * Output files starting with ">" are opened with "popen"
 * Input files starting with "s3://" are read from AWS's S3 file system
+* Input files starting with "http://" or "https://" are fetched from the live web
 * ...
-* 
