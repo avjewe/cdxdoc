@@ -4,5 +4,6 @@ USAGE : `cdx sort [options...] [files...]`
 
 ||||
 |---|---|---|
-| -k | --key **_Spec_** | How to compare adjacent lines. Spec is any of the standard [Comparisons](Comparisons.md) |
+| -k | --key=[Comparison](Comparisons.md)  | How to compare lines. |
+| -m | --merge | files are already sorted, just merge them. |
 
