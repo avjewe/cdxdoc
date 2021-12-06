@@ -36,9 +36,10 @@ that
 bbb
 ```
 
+Files are created in a temporary directory, so on the command line, you must explicitly refer to that directory :
 
 ```
-#command cdx cat aaa.txt bbb.txt
+#command cdx cat $TMP/aaa.txt $TMP/bbb.txt
 #infile aaa.txt
  CDX  one two
 this  that
