@@ -10,4 +10,5 @@ USAGE : cdx uniq [options...] [file]
 
 If any adjacent lines compare equal, only the first is printed.
 
+[home](README.md)
 
