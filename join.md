@@ -16,3 +16,5 @@ The first item in the list must be prefixed with a file number, followed by a pe
 
 Other items in the list may be prefixed by a file number. If not, the previously specified column number is assumed, e.g. `2.1-3,~2,1.3,1.1` indicates
 columns 1 and 3 from the second file, followed by columns 3 and 1 from the first file. `-o 1.1,2.2` is the same as `-o 1.1 -o 2.2`.
+
+[home](README.md)
