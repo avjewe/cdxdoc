@@ -12,8 +12,8 @@ Combine files, one after the other. Do the right thing with file headers.
 |-n|--number=Name\[,Start\[,Where]]|Number the lines in column 'Name', starting at number 'Start', 'Where' can be 'begin' or 'end'|
 |-b|--begin|Shortcut for `--number number,1,begin`|
 |-e|--end|Shortcut for `--number number,1,end`|
-|-r|--remove=[Matcher](matcher.md)|Remove lines that match. Most useful matchers are: Empty, Blank, Hash, Slash|
-|-s|--skip=[Matcher](matcher.md)|Do not number lines that match.|
+|-r|--remove=[Matcher](Matcher.md)|Remove lines that match. Most useful matchers are: Empty, Blank, Hash, Slash|
+|-s|--skip=[Matcher](Matcher.md)|Do not number lines that match.|
 
 
 ### Header Mode
