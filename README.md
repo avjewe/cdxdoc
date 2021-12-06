@@ -22,3 +22,5 @@ The SQL query
 `SELECT table1.title,table2.author from tabel1 JOIN table2 ON table1.id == table2.id WHERE tabel1.mode == "avail"` can be translated as
 
 `cdx cgrep -p, mode,,avail table1.txt | cdx join -k id - table2.txt -o 1.title,2.author` 
+or
+`cdx join -k id table1.txt table2.txt -o 1.title,2.author | cdx cgrep -p, mode,,avail`
