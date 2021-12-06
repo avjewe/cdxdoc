@@ -5,7 +5,7 @@ USAGE : `cdx cut [options...] [files...]`
 ## Command Line Options
 
 
-|short|long|description|
+||||
 |---|---|---|
 |-f|--fields=Columns|the columns to select as a [Column Set](NamedColumns.md)|
 |-g|--group=Spec|The columns in a bunch, e.g. '.group:1-3'|
@@ -21,3 +21,5 @@ A group is a collection of input columns, squashed together into a single output
 
 ### Composite Spec
 A composite column combines input columns with literal text into a single output column. The spec format is "Name:" specifying the name of the new column followed by a string containg any number of ^{Column} identifiers, mixed up with litera text.
+
+[home](README.md)
