@@ -1,11 +1,11 @@
-# Concatenate Files
+# CAT : Concatenate Files
 USAGE : `cdx cat [options...] [files...]`
 
 Combine files, one after the other. Do the right thing with file headers.
 
 ## Command Line Options
 
-|short|long|description|
+||||
 |---|---|---|
 |-h|--header=Mode|Header requirements. See below.|
 |-p|--pad=Mode>|Add trailing newline if absent. See below.|
@@ -31,3 +31,4 @@ What to do if files don't end with a newline
  * No - Never append a newline.
  * End - Appen a newline to the last file, if necessary. 
  
+[home](README.md)
