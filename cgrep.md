@@ -1,4 +1,4 @@
-# Select lines from text files
+# CGREP : Select lines from text files
 
 USAGE `cdx cgrep [options...] [files...]`
 # Command Line Options
@@ -22,3 +22,5 @@ If you specify multiple patterns, they must all match.
  * `-p 3,S.N.C.prefix,ñ -- reject lines where column 3 starts with ñ or Ñ
  * `-p 2,length,42` -- match lines where column 2 it at least 42 bytes long
  * `-p 2,length.S,42` -- match lines where column 2 it at least 42 characters long
+
+[home](README.md)
