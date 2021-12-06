@@ -7,13 +7,13 @@ Combine files, one after the other. Do the right thing with file headers.
 
 |short|long|description|
 |---|---|---|
-|-h|--header=Mode|Header requirements.|
-|-p|--pad=Mode>|Add trailing newline if absent.|
+|-h|--header=Mode|Header requirements. See below.|
+|-p|--pad=Mode>|Add trailing newline if absent. See below.|
 |-n|--number=Name\[,Start\[,Where]]|Number the lines in column 'Name', starting at number 'Start', 'Where' can be 'begin' or 'end'|
 |-b|--begin|Shortcut for `--number number,1,begin`|
 |-e|--end|Shortcut for `--number number,1,end`|
-|-r|--remove=Mode|Remove these lines. \[possible values: Empty, Blank, Hash, Slash]|
-|-s|--skip=Mode|Do not number these lines. \[possible values: Empty, Blank, Hash, Slash]|
+|-r|--remove=[Matcher](matcher.md)|Remove lines that match. Most useful matchers are: Empty, Blank, Hash, Slash|
+|-s|--skip=[Matcher](matcher.md)|Do not number lines that match.|
 
 
 ### Header Mode
