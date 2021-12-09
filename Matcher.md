@@ -10,8 +10,8 @@ In both cases it's fine for the Pattern to contain commas.
     * S - String : operations are on utf8 strings, rather than the default u8 bytes
     * N - Negate : trat a match as a non-match, and vice versa.
     * C - Case Insensitive : ignore case. Exact behavior depends on "S"
-    * AND - See Multi-Match below
-    * OR - See Multi-Match below
+    * AND - See Multi-Match below. Matches if all pattern match.
+    * OR - See Multi-Match below. Matches if any pattern matches.
     
 If you do not specify 'S' in the modifiers, then matching against non-utf8 field values is OK. 
  
@@ -33,4 +33,6 @@ If you do not specify 'S' in the modifiers, then matching against non-utf8 field
 ## Multi-Match (new in 0.1.8)
 A normal match is `Matcher,Pattern`
 
-A multi-match is `^Matcher^Pattern^Pattern...` That is, the matcher is prefixed with a punctuation character, which is then the delimiter used between patterns. The default mode is `AND`, so that the multi-match matches if and only if all of the patterns match. You can add `OR` to the Matcher, so that only one pattern need match.
+A multi-match contains multiple patterns. If the Modifiers contai`AND` or `OR`, then the first character of the pattern is interpreted as a delimiter, and the Pattern string is split on that delimiter, into multiple patterns. e.g.
+`c.or.regex,,Pattern,Pattern,Pattern` or `Column,AND,^Pattern^Pattern^Pattern`
+
