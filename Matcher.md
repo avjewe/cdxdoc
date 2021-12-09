@@ -32,5 +32,5 @@ If you do not specify 'S' in the modifiers, then matching against non-utf8 field
     
 ## Multi-Match (new in 0.1.8)
 A normal match is `Matcher,Pattern`
-the patterns must match.
+
 A multi-match is `^Matcher^Pattern^Pattern...` That is, the matcher is prefixed with a punctuation character, which is then the delimiter used between patterns. The default mode is `AND`, so that the multi-match matches if and only if all of the patterns match. You can add `OR` to the Matcher, so that only one pattern need match.
