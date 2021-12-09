@@ -10,6 +10,8 @@ In both cases it's fine for the Pattern to contain commas.
     * S - String : operations are on utf8 strings, rather than the default u8 bytes
     * N - Negate : trat a match as a non-match, and vice versa.
     * C - Case Insensitive : ignore case. Exact behavior depends on "S"
+    * AND - See Multi-Match below
+    * OR - See Multi-Match below
     
 If you do not specify 'S' in the modifiers, then matching against non-utf8 field values is OK. 
  
@@ -27,3 +29,8 @@ If you do not specify 'S' in the modifiers, then matching against non-utf8 field
     * blank - Matches a string composed enirely of whitespace. A superset of `empty`.
     * hash - Matches a string starting with whitespace, followed by `#`. Pattern is ignored. A superset of `blank`.
     * slash - Matches a string starting with whitespace, followed by `//`. Pattern is ignored. A superset of `blank`.
+    
+## Multi-Match (new in 0.1.8)
+A normal match is `Matcher,Pattern`
+the patterns must match.
+A multi-match is `^Matcher^Pattern^Pattern...` That is, the matcher is prefixed with a punctuation character, which is then the delimiter used between patterns. The default mode is `AND`, so that the multi-match matches if and only if all of the patterns match. You can add `OR` to the Matcher, so that only one pattern need match.
