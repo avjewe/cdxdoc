@@ -17,7 +17,8 @@ A tooltest file (traditionally with a `.test` suffix) has the following parts. A
  * #stdin : followed by the input to the program. Default empty.
  * #stdout : followed by the expected stdout output. Default empty.
  * #stderr : followed by the expected stderr output. Default empty.
- * #infile Filename : followed by the contents of the named file. FIle name must be prefixed with `$TMP` in the command.
+ * #infile Filename : followed by the contents of the named file. `#infile foo` means that the file $TMP/foo is available to the command.
+ * #outfile Filename : followed by the contents of the named file. `#outfile foo` means that the file $TMP/foo must be created by the command, with exactly that contents.
  * #nonewline : must follow the contents of one of the above four. Removes the final newline from the input or expected output.
  * #status Number : the expected exit status. Default zero.
  * '# ' : a line starting with # and a space is a comment, and is ignored
