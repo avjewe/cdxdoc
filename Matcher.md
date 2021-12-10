@@ -7,6 +7,7 @@ A matcher is commonly used as a single comma delimited parameter : `Matcher,Patt
 In both cases it's fine for the Pattern to contain commas.
 
  ## Modifiers :
+ 
     * S - String : operations are on utf8 strings, rather than the default u8 bytes
     * N - Negate : trat a match as a non-match, and vice versa.
     * C - Case Insensitive : ignore case. Exact behavior depends on "S"
@@ -17,6 +18,7 @@ If you do not specify 'S' in the modifiers, then matching against non-utf8 field
  
 
  ## Methods :
+ 
     * regex - A regex as per the eponymous crate
     * exact - An exact match
     * prefix - The pattern is a prefix of the field value
