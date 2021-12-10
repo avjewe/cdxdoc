@@ -31,10 +31,11 @@ If you do not specify 'S' in the modifiers, then matching against non-utf8 field
     * blank - Matches a string composed enirely of whitespace. A superset of `empty`.
     * hash - Matches a string starting with whitespace, followed by `#`. Pattern is ignored. A superset of `blank`.
     * slash - Matches a string starting with whitespace, followed by `//`. Pattern is ignored. A superset of `blank`.
+    * yes - Always matches. Use `yes.N` for something that never matches.
     
-## Multi-Match (new in 0.1.8)
+## Multi-Match
 A normal match is `Matcher,Pattern`
 
-A multi-match contains multiple patterns. If the Modifiers contai`AND` or `OR`, then the first character of the pattern is interpreted as a delimiter, and the Pattern string is split on that delimiter, into multiple patterns. e.g.
+A multi-match contains multiple patterns. If the Modifiers contains `AND` or `OR`, then the first character of the pattern is interpreted as a delimiter, and the Pattern string is split on that delimiter, into multiple patterns. e.g.
 `c.or.regex,,Pattern,Pattern,Pattern` or `Column,AND,^Pattern^Pattern^Pattern`
 
