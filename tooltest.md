@@ -42,6 +42,8 @@ Specify a matcher, and the test will pass if the file contents matches. This is 
 ```
 says that the stderr output should contain both the word "duplicate" and the word "one", thus matching either "Column name 'one' is a duplicate" and "Duplicate column name : one".
 
+Remember that if you're using a `regex` matcher, you need to include `(s?)` in the pattern if you want a match to cross a line boundary.
+
 ## File Format
 A tooltest file (traditionally with a `.test` suffix) has the following parts. All but `command` are optional
 
