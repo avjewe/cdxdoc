@@ -1,4 +1,4 @@
-# Test command line tools
+# Tooltest : Test command line tools
 
 USAGE : `cdx tooltest [options...] [files...]`
 
