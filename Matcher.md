@@ -4,7 +4,7 @@ A matcher is specified with a period delimited list, consiting of a method and s
 An empty specification indicated a case sensitive regex over plain bytes.
 
 A matcher is commonly used as a single comma delimited parameter : `Matcher,Pattern` (e.g. [cat](cat.md)) or `Column,Matcher,Pattern` (e.g. [cgrep](cgrep.md)).
-In both cases it's fine for the Pattern to contain commas.
+In both cases it's fine for the Pattern to contain commas. Modifers and methods are not case sensitive.
 
  ## Modifiers :
  
