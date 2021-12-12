@@ -8,11 +8,13 @@ In both cases it's fine for the Pattern to contain commas.
 
  ## Modifiers :
  
-    * S - String : operations are on utf8 strings, rather than the default u8 bytes
-    * N - Negate : trat a match as a non-match, and vice versa.
-    * C - Case Insensitive : ignore case. Exact behavior depends on "S"
-    * AND - See Multi-Match below. Matches if all pattern match.
-    * OR - See Multi-Match below. Matches if any pattern matches.
+    * utf8 - String : operations are on utf8 strings, rather than the default u8 bytes
+    * not - Negate : treat a match as a non-match, and vice versa.
+    * case - Case Insensitive : ignore case. Exact behavior depends on "S"
+    * trim - remove leading and trailing whitespce before checking
+    * null - an empty string always matches. This check happens after trimming.
+    * and - See Multi-Match below. Matches if all pattern match.
+    * or - See Multi-Match below. Matches if any pattern matches.
     
 If you do not specify 'S' in the modifiers, then matching against non-utf8 field values is OK. 
  
