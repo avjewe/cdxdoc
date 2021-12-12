@@ -12,7 +12,7 @@ In both cases it's fine for the Pattern to contain commas. Modifers and methods 
     * not - Negate : treat a match as a non-match, and vice versa.
     * case - Case Insensitive : ignore case. Exact behavior depends on "S"
     * trim - remove leading and trailing whitespce before checking
-    * null - an empty string always matches. This check happens after trimming.
+    * null - an empty string also matches. This check happens after trimming.
     * and - See Multi-Match below. Matches if all pattern match.
     * or - See Multi-Match below. Matches if any pattern matches.
     
