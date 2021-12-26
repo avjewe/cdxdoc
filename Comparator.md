@@ -18,15 +18,14 @@ but by default, all field values are considered valid.
 
 Method is one of :
 
- * plain : sort the plain bytes of the column
+ * plain : sort the plain bytes of the column (the default)
  * expr : sort the value of the arithmetic expression in the pattern.
- * length (or `len`) : sort fields by their length
+ * length (or 'len') : sort fields by their length
  * float : best effort to convert field to 64-bit floating point value, and compare that
- * numeric (or `num`) : Numeric compare, assuimg input is in the form [-]nnn.nnn, with no limit on length or value
+ * numeric (or 'num') : Numeric compare, assuimg input is in the form [-]nnn.nnn, with no limit on length or value
  * ip : Sort as IP address or 1.2.3 section numbers
  * lower : Sort as lower case ascii
  * equal : All lines are always equal to each other
- * the default is regular text compare
 
 Combined with :
 
@@ -38,6 +37,7 @@ Combined with :
 For example
 
  * `--key 2` sorts by column 2 increasing.
+ * -k price,float.strict
  * `-k 3,rev.float` sorts by column 3, by decreasing floating point value
  * `--key title,rev.len` sorts by decreasing length of the title column
  * `-k author -k title` sorts by author, and if the authors are the same, by title.
