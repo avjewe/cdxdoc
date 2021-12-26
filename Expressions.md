@@ -22,3 +22,5 @@ Expressions are used throughout the cdx tools
 
 * [Comparators](Comparator.md) : e.g. `cdx sort -k ',expr,sin(angle)'` sorts a file by the sin of the value of the 'angle' field.
 * [Matchers](Matcher.md) : e.g. `cdx cgrep -e 'price*quantity > 100.0'` selects the line where the `price` column multiplied by the `quantity` column is greater than 100. 
+
+[home](README.md)
