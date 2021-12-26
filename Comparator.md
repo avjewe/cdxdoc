@@ -6,7 +6,7 @@ The default behavior is a simple textual match of the whole line - byte for byte
 
 These tools can take a Comparator of the form `--key=Spec` where the spec is :
 
-Columns,Method,Pattern
+Column,Method,Pattern
 
 where Column is a column name or number. Leave this empty to look at the line as a whole, or for comparators like `expr` that
 do not need a separate column specification. Most comparators don't take a pattern, so you can simplify to simply
