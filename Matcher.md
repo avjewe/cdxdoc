@@ -22,6 +22,7 @@ If you do not specify 'S' in the modifiers, then matching against non-utf8 field
  ## Methods :
  
     * regex - A regex as per the eponymous crate
+    * expr - a floating point expression, that must be non-zero, e.g. `price>100.0`
     * exact - An exact match
     * prefix - The pattern is a prefix of the field value
     * suffix - The pattern is a suffix of the field value
