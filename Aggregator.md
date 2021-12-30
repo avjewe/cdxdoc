@@ -20,3 +20,5 @@ The pattern for a `merge` aggregator is a period delimited set of any of the fol
 * max_parts:N -- Display only the first N parts.
 * Dxy         -- 'x' is the input delimiter and 'y' is the output delimiter. Default is comma for both.
 * comp:spec   -- Spec for comparator for sort or uniq. Must be last piece.
+
+[home](README.md)
