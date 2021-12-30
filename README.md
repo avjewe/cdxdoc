@@ -10,6 +10,7 @@ The cdx application is something like the gnu textutils, with added benefits :
 
 Tools
 * [cat](cat.md) Concatenate files.
+* [calc](calc.md) Solve [arithmetic](Expressions.md) equations.
 * [binsearch](binsearch.md) Search in sorted files.
 * [cgrep](cgrep.md) Select lines from a file, based on matching column values.
 * [cut](cut.md) Select combine and rearrange parts of each line.
