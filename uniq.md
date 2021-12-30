@@ -41,3 +41,4 @@ There can be many different [Comparators](Comparator.md) in opertion at the same
 The lines of the file are compared by the case-insensitve text of the `title` field. Among those lines with matching titles, the line
 with the highest `price` is selected, except that the output `year` column will be the latest year mentioned.
 
+[home](README.md)
