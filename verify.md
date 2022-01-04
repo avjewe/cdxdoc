@@ -10,7 +10,7 @@ file is wring, and return a non-zero result code.
 ||||
 |---|---|---|
 |-p|--pattern=Col,[Matcher](Matcher.md),Pattern|This column must match this pattern|
-|-k|--key=[Comparitor](Comparisons.md) |Sort criterea for the below.|
+|-k|--key=[Comparator](Comparisons.md) |Sort criterea for the below.|
 |-s|--sort|File must be sorted by `--key`|
 |-u|--unique|Adjacent lines must not be equal, according to  `--key`. Enables --sort.|
 |-f|--first=Op,Value|'FirstLine Op Value' must be true. E.g LT,a for first line is less than 'a'.|
