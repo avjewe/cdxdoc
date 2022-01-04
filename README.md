@@ -18,6 +18,7 @@ Tools
 * [sort](sort.md) Sort the lines of a set of input files.
 * [tooltest](tooltest.md) Test command line tools.
 * [uniq](uniq.md) Select only one of any set of adjacent lines.
+* [verify](verify.md) Verify that file contents are correct.
 
 The SQL query
 `SELECT table1.title,table2.author from tabel1 JOIN table2 ON table1.id == table2.id WHERE tabel1.mode == "avail"` can be translated as
