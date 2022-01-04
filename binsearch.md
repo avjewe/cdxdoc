@@ -7,7 +7,7 @@ Search files, one after the other. Files must be sorted. Very fast, even for eno
 
 ||||
 |---|---|---|
-|-k|--key=[Comparison](Comparisons.md)|How are the files sorted|
+|-k|--key=[Comparator](Comparator.md)|How are the files sorted|
 |-h|--header=Mode|Header requirements. See [cat](cat.md) for more details.|
 |-s|--sub-delim=Char|If you have a multi part Comparison, this character delimits the parts of the Key|
 |-C|--context=Before,After|Print lines of context around matches. See below.|
