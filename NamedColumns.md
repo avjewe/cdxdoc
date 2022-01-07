@@ -24,7 +24,7 @@ When a tool asks for a ColumnSet, that is a comma delimited list of Ranges
 A Range starts with an optional "Name:", giving a new name to the column, followed by a optional "~" signaling "not", followed by one of
  * a single **Named Column**
  * two named columns, separated by a "-" indicating an inclusive range. The second one can be omitted, meaning "all the rest"
- * a [Matchers](Matcher.md) inside parentheses, which selects any columns whose name matches the Matcher, e.g. `(range,<=dog>=cat)`
+ * a [Matcher](Matcher.md) inside parentheses, which selects any columns whose name matches the Matcher, e.g. `(range,<=dog>=cat)`
 
 The full column set then represents all the regular ranges, in order, with any and all not'ed column removed.
 
