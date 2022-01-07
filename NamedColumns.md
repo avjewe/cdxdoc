@@ -24,11 +24,9 @@ When a tool asks for a ColumnSet, that is a comma delimited list of Ranges
 A Range starts with an optional "Name:", giving a new name to the column, followed by a optional "~" signaling "not", followed by one of
  * a single **Named Column**
  * two named columns, separated by a "-" indicating an inclusive range. The second one can be omitted, meaning "all the rest"
- * A comparison operator, followed by a string, e.g. "<abc" or ">=def", include all columns matching (case sensitive) the given expression
- * Two such comparisons, e.g. ">=abc<def" selecting any columns that are alphabetically between "abc" and "def".
- * A bash-style glob, e.g. "t*e" or "ti???", both of which would match the column "title" among others.
+ * a [Matchers](Matcher.md) inside parentheses, which selects any columns whose name matches the Matcher, e.g. `(range,<=dog>=cat)`
 
-The full column set then represents all the regulat ranges, in order, with any and all not'ed column removed.
+The full column set then represents all the regular ranges, in order, with any and all not'ed column removed.
 
 This means that repeating a "yes" column is significant, but repeating a negated column changes nothing. For example
 
