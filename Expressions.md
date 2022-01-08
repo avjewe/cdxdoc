@@ -16,6 +16,9 @@ Binary Operators : The usual `+,-,*,/,%` as well as ^ (power) and the comparison
 * avg - takes any number of arguments (at least one) and returns the average
 * if - takes 3 arguments. If the first is non-zero, returns the second, else returns the third.
 
+### Column Set
+You canprovide parameters to a function by using a [ColumnSet](NamedColumns.md) within square brackets. For example `max([1-10,~5])` returns the maximum of the first ten columns, except ignoring column 5.
+
 # Uses
 
 Expressions are used throughout the cdx tools
