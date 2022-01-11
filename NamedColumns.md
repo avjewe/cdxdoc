@@ -45,3 +45,8 @@ A scoped value lets you specify a value that is potentiall different for every c
  * `-s foo -s bar,2-4` -- column1 1 and 5 get foo, 2-4 get bar
  * `-s ,,3` -- column 3 gets ","
  * `-s foo,~2-4` -- columns 1 and 5 get foo.
+
+### Transforms
+
+A column set can be followed by a `+` and a [Transform](Transform.md) chain, for example `1-3+lower+to_base64`.
+This will give you the values of those fields, each individually transformed as requested.
