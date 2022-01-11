@@ -16,7 +16,9 @@ Tools
 * [cut](cut.md) Select combine and rearrange parts of each line.
 * [join](join.md) Join files on a matching column.
 * [sort](sort.md) Sort the lines of a set of input files.
+* [tabs](tabs.md) Display a text file, truncated to fit the screen and with columns aligned.
 * [tooltest](tooltest.md) Test command line tools.
+* [transpose](transpose.md) Transpose the lines of a file.
 * [uniq](uniq.md) Select only one of any set of adjacent lines.
 * [verify](verify.md) Verify that file contents are correct.
 
