@@ -2,7 +2,7 @@
 
 USAGE : `cdx wc [options...] [files...]`
 
-||||
+|short|long|description|
 |---|---|---|
 | -a | --agg=NewCol,[Aggregator](Aggregator.md)  | Create a new output column with the given aggregator. |
 | -l | --lines | Shortcut for `--agg lines,count` |
@@ -17,6 +17,8 @@ USAGE : `cdx wc [options...] [files...]`
 If no output is specified, `--lines` is assumed.
 
 `wc` reads each line and feeds it to each aggregator.
+
+Best viewed when piped to [cdx tabs](tabs.md)
 
 ### Other useful aggregators
 
