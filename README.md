@@ -21,6 +21,7 @@ Tools
 * [transpose](transpose.md) Transpose the lines of a file.
 * [uniq](uniq.md) Select only one of any set of adjacent lines.
 * [verify](verify.md) Verify that file contents are correct.
+* [wc](wc.md) Count words, lines and bytes of files.
 
 The SQL query
 `SELECT table1.title,table2.author from tabel1 JOIN table2 ON table1.id == table2.id WHERE tabel1.mode == "avail"` can be translated as
