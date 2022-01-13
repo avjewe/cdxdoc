@@ -26,11 +26,10 @@ Best viewed when piped to [cdx tabs](tabs.md)
 * `--agg ,amean,awords` will report the average line length in words
 
 ### Number Format
- * Plain : No exponent. e.g. 123456
- * Float : With exponent, e.g. 1.23e5
- * p2 : Power of Two suffix, e.g. 121K
- * p10 : Power of Ten suffix, e.g. 123k
-
+ * Plain : No exponent. e.g. 123456 or 123456789
+ * Float : With exponent, e.g. 1.23e5 or 1.23e8
+ * p2 : Power of Two suffix, e.g. 121K or 118M
+ * p10 : Power of Ten suffix, e.g. 123k or 123m
 
 [home](README.md)
 
