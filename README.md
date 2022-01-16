@@ -15,6 +15,7 @@ Tools
 * [cgrep](cgrep.md) Select lines from a file, based on matching column values.
 * [cut](cut.md) Select combine and rearrange parts of each line.
 * [join](join.md) Join files on a matching column.
+* [sample](sample.md) Display some of the lines of a file.
 * [sort](sort.md) Sort the lines of a set of input files.
 * [tabs](tabs.md) Display a text file, truncated to fit the screen and with columns aligned.
 * [tooltest](tooltest.md) Test command line tools.
