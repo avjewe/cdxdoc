@@ -1,4 +1,4 @@
-# CAT : Concatenate Files
+# cat : Concatenate Files
 USAGE : `cdx cat [options...] [files...]`
 
 Combine files, one after the other. Do the right thing with file headers.
